@@ -4,7 +4,7 @@ for (; c < 10; c++)
 {
     do
     {
-        Console.WriteLine("Digite a idade: ");
+        Console.WriteLine($"Digite a {c +1}° idade: ");
         idades = int.Parse(Console.ReadLine());
     } while (idades <= 0);
     if (idades >= 18)
